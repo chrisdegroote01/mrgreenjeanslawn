@@ -79,9 +79,12 @@
     </p>
     
     <div class="pay-button">
-      <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f999138832185&mfid=1744154495273_f999138832185#/checkout/openButton" target="_blank">
-        Pay Now with PayPal
-      </a>
+    <div id="paypal-container-DFCFXG7TQC5HS"></div>
+      <script>
+        paypal.HostedButtons({
+        hostedButtonId: "DFCFXG7TQC5HS",
+        }).render("#paypal-container-DFCFXG7TQC5HS")
+      </script>
     </div>
   </div>
 
